@@ -1,13 +1,21 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Aayan Anwar's Blog",
-    page_icon=':black_nib:'
+    page_title="Aayan's Site",
+    page_icon=':black_nib:',
+    layout='wide'
 )
 
 #HEADER#
 
-st.title("-(.Aayan Anwar's Blog.)-")
+st.title("Aayan Anwar's Site")
+st.write("This is my very own site, made with Python!")
+st.write("---")
+st.title("Some of my Works:")
+st.subheader("[Github](https://github.com/AayanAnwar)")
+st.subheader("DoaS (LINK TO BE ADDED)")
+st.write("---")
+
 
 
 
