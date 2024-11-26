@@ -2,21 +2,22 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(
-    page_title="Aayan's Site",
+    page_title="Death of a Shadow",
     page_icon=':black_nib:',
     layout='wide'
 )
 
 # HEADER
-st.title("Aayan Anwar's Site")
-st.write("This is my very own site, made with Python!")
+st.title("Death of a Shadow")
+st.write("The official website for Death of a Shadow.")
 st.write("---")
-st.title("Some of my Works:")
+st.title("Aayan Anwar's Github:")
 st.subheader("[Github](https://github.com/AayanAnwar)")
+st.title("Chapter List:")
 st.subheader("[DoaS Chapter List](pages/All_Chapters.py)")  # Link to Chapter List
 st.write("---")
 
-# Sidebar Styling (optional)
+# Sidebar Styling
 hide_streamlit_style = """
     <style>
     [data-testid="stToolbar"] {visibility: hidden !important;}
